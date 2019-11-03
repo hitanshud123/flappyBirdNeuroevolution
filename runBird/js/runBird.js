@@ -192,7 +192,7 @@ class Bird {
         this.score++;       
     }
 
-    static loadBird(dir='evolvedBird.json') {
+    static loadBird(dir='birds/evolvedBird.json') {
         loadJSON(dir, Bird.fromObj);
     }
 
